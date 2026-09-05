@@ -887,3 +887,234 @@ tr:hover td {
   color: var(--text-muted);
   margin-bottom: 25px;
 }
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>⚡ شحن برو</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <div class="logo">⚡ شحن برو</div>
+
+  <nav>
+    <a href="#">الرئيسية</a>
+    <a href="#games">بيجي</a>
+    <a href="#freefire">فري فاير</a>
+    <a href="#orders">طلباتي</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1>أسرع شحن للألعاب 🎮</h1>
+  <p>اشحن حسابك بأفضل الأسعار وأضمن توصيل بسرعة وأمان.</p>
+  <button>ابدأ الشحن الآن</button>
+</section>
+
+<section id="games" class="section">
+  <h2>🎮 الألعاب المتوفرة</h2>
+
+  <div class="cards">
+
+    <div class="card">
+      <div class="game-image pubg">🎮</div>
+      <h3>ببجي موبايل</h3>
+      <p>شحن شدات UC</p>
+      <button>اشحن الآن</button>
+    </div>
+
+    <div class="card">
+      <div class="game-image freefire">🔥</div>
+      <h3>فري فاير</h3>
+      <p>شحن جواهر</p>
+      <button>اشحن الآن</button>
+    </div>
+
+    <div class="card">
+      <div class="game-image game">💎</div>
+      <h3>بطاقات الألعاب</h3>
+      <p>بطاقات وشحن سريع</p>
+      <button>اشترِ الآن</button>
+    </div>
+
+  </div>
+</section>
+
+<section class="section">
+  <h2>💎 باقات الشدات</h2>
+
+  <div class="cards">
+    <div class="package">
+      <h3>60 UC</h3>
+      <strong>$1</strong>
+      <button>شراء</button>
+    </div>
+
+    <div class="package">
+      <h3>325 UC</h3>
+      <strong>$5</strong>
+      <button>شراء</button>
+    </div>
+
+    <div class="package">
+      <h3>660 UC</h3>
+      <strong>$10</strong>
+      <button>شراء</button>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <h2>💎 باقات الجواهر</h2>
+
+  <div class="cards">
+    <div class="package">
+      <h3>100 جوهرة</h3>
+      <strong>$1</strong>
+      <button>شراء</button>
+    </div>
+
+    <div class="package">
+      <h3>310 جوهرة</h3>
+      <strong>$3</strong>
+      <button>شراء</button>
+    </div>
+
+    <div class="package">
+      <h3>520 جوهرة</h3>
+      <strong>$5</strong>
+      <button>شراء</button>
+    </div>
+  </div>
+</section>
+
+<section id="orders" class="orders">
+  <h2>📦 طلباتي</h2>
+  <p>لم تقم بأي طلب حتى الآن.</p>
+</section>
+
+<footer>
+  <p>© 2026 شحن برو ⚡ جميع الحقوق محفوظة</p>
+</footer>
+
+</body>
+</html><!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>⚡ شحن برو</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <div class="logo">⚡ شحن برو</div>
+
+  <nav>
+    <a href="#">الرئيسية</a>
+    <a href="#games">بيجي</a>
+    <a href="#freefire">فري فاير</a>
+    <a href="#orders">طلباتي</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1>أسرع شحن للألعاب 🎮</h1>
+  <p>اشحن حسابك بأفضل الأسعار وأضمن توصيل بسرعة وأمان.</p>
+  <button>ابدأ الشحن الآن</button>
+</section>
+
+<section id="games" class="section">
+  <h2>🎮 الألعاب المتوفرة</h2>
+
+  <div class="cards">
+
+    <div class="card">
+      <div class="game-image pubg">🎮</div>
+      <h3>ببجي موبايل</h3>
+      <p>شحن شدات UC</p>
+      <button>اشحن الآن</button>
+    </div>
+
+    <div class="card">
+      <div class="game-image freefire">🔥</div>
+      <h3>فري فاير</h3>
+      <p>شحن جواهر</p>
+      <button>اشحن الآن</button>
+    </div>
+
+    <div class="card">
+      <div class="game-image game">💎</div>
+      <h3>بطاقات الألعاب</h3>
+      <p>بطاقات وشحن سريع</p>
+      <button>اشترِ الآن</button>
+    </div>
+
+  </div>
+</section>
+
+<section class="section">
+  <h2>💎 باقات الشدات</h2>
+
+  <div class="cards">
+    <div class="package">
+      <h3>60 UC</h3>
+      <strong>$1</strong>
+      <button>شراء</button>
+    </div>
+
+    <div class="package">
+      <h3>325 UC</h3>
+      <strong>$5</strong>
+      <button>شراء</button>
+    </div>
+
+    <div class="package">
+      <h3>660 UC</h3>
+      <strong>$10</strong>
+      <button>شراء</button>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <h2>💎 باقات الجواهر</h2>
+
+  <div class="cards">
+    <div class="package">
+      <h3>100 جوهرة</h3>
+      <strong>$1</strong>
+      <button>شراء</button>
+    </div>
+
+    <div class="package">
+      <h3>310 جوهرة</h3>
+      <strong>$3</strong>
+      <button>شراء</button>
+    </div>
+
+    <div class="package">
+      <h3>520 جوهرة</h3>
+      <strong>$5</strong>
+      <button>شراء</button>
+    </div>
+  </div>
+</section>
+
+<section id="orders" class="orders">
+  <h2>📦 طلباتي</h2>
+  <p>لم تقم بأي طلب حتى الآن.</p>
+</section>
+
+<footer>
+  <p>© 2026 شحن برو ⚡ جميع الحقوق محفوظة</p>
+</footer>
+
+</body>
+</html>
