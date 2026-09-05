@@ -75,7 +75,39 @@ function showPage(page) {
 }
 
 function addToCart(game, amount, price) {
-  alert(`تم اختيار ${amount} من ${game} بسعر $${price.toFixed(2)}`);
+    let cart = JSON.parse(localStorage.getItem("gt_cart") || "[]");
+
+    cart.push({
+        game: game,
+        amount: amount,
+        price: Number(price)
+    });
+
+    localStorage.setItem("gt_cart", JSON.stringify(cart));
+
+    const cartItems = document.getElementById("cart-items");
+    const cartTotal = document.getElementById("cart-total-price");
+
+    if (cartItems) {
+        cartItems.innerHTML = cart.map((item, index) => `
+            <div class="cart-item">
+                <div>
+                    <strong>${item.game}</strong>
+                    <div>${item.amount}</div>
+                </div>
+                <div>$${item.price.toFixed(2)}</div>
+            </div>
+        `).join("");
+    }
+
+    if (cartTotal) {
+        const total = cart.reduce((sum, item) => sum + item.price, 0);
+        cartTotal.textContent = `$${total.toFixed(2)}`;
+    }
+
+    alert(`تمت إضافة ${amount} من ${game} إلى السلة`);
+}
+  
 }
 
 document.addEventListener("DOMContentLoaded", function() {
