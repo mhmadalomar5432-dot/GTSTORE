@@ -106,9 +106,9 @@ function addToCart(game, amount, price) {
     }
 
     alert(`تمت إضافة ${amount} من ${game} إلى السلة`);
-}
-  
-}
+
+}  
+
 
 document.addEventListener("DOMContentLoaded", function() {
   renderGames();
